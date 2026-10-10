@@ -1,0 +1,6 @@
+a, b = map(int, input().split('x'))
+r=6.5
+if (a**2+b**2)**0.5<=2*r:
+    print('да')
+else:
+    print('нет')
